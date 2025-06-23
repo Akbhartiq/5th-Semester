@@ -1,0 +1,2082 @@
+<Multi line comment: /* multiline comment1 */>
+<Multi line comment: /* multiline 
+   comment2 */>
+<Single line comment: // single line comment>
+<KEYWORD, int>
+<Identifiers, main>
+______________________________________________
+
+Identifier: {main} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, (>
+<punctuator, )>
+<punctuator, {>
+<Single line comment: // Keywords>
+<KEYWORD, auto>
+<KEYWORD, int>
+<Identifiers, x>
+______________________________________________
+
+Identifier: {x} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 10>
+______________________________________________
+
+Number: {10} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // auto>
+<KEYWORD, restrict>
+<KEYWORD, int>
+<punctuator, *>
+<Identifiers, ptr>
+______________________________________________
+
+Identifier: {ptr} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // restrict>
+<KEYWORD, unsigned>
+<KEYWORD, int>
+<Identifiers, count>
+______________________________________________
+
+Identifier: {count} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 100>
+______________________________________________
+
+Number: {100} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // unsigned>
+<KEYWORD, void>
+<Identifiers, function>
+______________________________________________
+
+Identifier: {function} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, (>
+<punctuator, )>
+<punctuator, {>
+<Single line comment: // void>
+<KEYWORD, break>
+<punctuator, ;>
+<Single line comment: // break>
+<KEYWORD, extern>
+<KEYWORD, int>
+<Identifiers, y>
+______________________________________________
+
+Identifier: {y} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // extern>
+<KEYWORD, return>
+<punctuator, ;>
+<Single line comment: // return>
+<KEYWORD, case>
+<Integer constant, 1>
+______________________________________________
+
+Number: {1} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, :>
+<Single line comment: // case>
+<Identifiers, printf>
+______________________________________________
+
+Identifier: {printf} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, (>
+<string literal, "Case 1\n">
+<punctuator, )>
+<punctuator, ;>
+<KEYWORD, break>
+<punctuator, ;>
+<punctuator, }>
+<KEYWORD, float>
+<Identifiers, pi>
+______________________________________________
+
+Identifier: {pi} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Floating constant, 3.14>
+______________________________________________
+
+Number: {3.14} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // float>
+<KEYWORD, short>
+<KEYWORD, int>
+<Identifiers, z>
+______________________________________________
+
+Identifier: {z} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 5>
+______________________________________________
+
+Number: {5} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // short>
+<KEYWORD, volatile>
+<KEYWORD, int>
+<Identifiers, flag>
+______________________________________________
+
+Identifier: {flag} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 0>
+______________________________________________
+
+Number: {0} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // volatile>
+<KEYWORD, char>
+<Identifiers, c>
+______________________________________________
+
+Identifier: {c} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<char constant, 'a'>
+<punctuator, ;>
+<Single line comment: // char>
+<KEYWORD, for>
+<punctuator, (>
+<KEYWORD, int>
+<Identifiers, i>
+______________________________________________
+
+Identifier: {i} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<punctuator, ;>
+<Identifiers, i>
+______________________________________________
+Identifier: {i} is already present
+______________________________________________
+<punctuator, <>
+<Integer constant, 10>
+______________________________________________
+Number: {10} is already present
+______________________________________________
+<punctuator, ;>
+<Identifiers, i>
+______________________________________________
+Identifier: {i} is already present
+______________________________________________
+<punctuator, ++>
+<punctuator, )>
+<punctuator, {>
+<Single line comment: // for>
+<KEYWORD, signed>
+<KEYWORD, int>
+<Identifiers, num>
+______________________________________________
+
+Identifier: {num} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<punctuator, ->
+<Integer constant, 5>
+______________________________________________
+Number: {5} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // signed>
+<KEYWORD, while>
+<punctuator, (>
+<Identifiers, num>
+______________________________________________
+Identifier: {num} is already present
+______________________________________________
+<punctuator, <>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<punctuator, )>
+<punctuator, {>
+<Single line comment: // while>
+<Identifiers, printf>
+______________________________________________
+Identifier: {printf} is already present
+______________________________________________
+<punctuator, (>
+<string literal, "%d\n">
+<punctuator, ,>
+<Identifiers, num>
+______________________________________________
+Identifier: {num} is already present
+______________________________________________
+<punctuator, )>
+<punctuator, ;>
+<Identifiers, num>
+______________________________________________
+Identifier: {num} is already present
+______________________________________________
+<punctuator, ++>
+<punctuator, ;>
+<punctuator, }>
+<punctuator, }>
+<KEYWORD, const>
+<KEYWORD, int>
+<Identifiers, max>
+______________________________________________
+
+Identifier: {max} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 50>
+______________________________________________
+
+Number: {50} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // const>
+<KEYWORD, goto>
+<Identifiers, label>
+______________________________________________
+
+Identifier: {label} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // goto>
+<Identifiers, label>
+______________________________________________
+Identifier: {label} is already present
+______________________________________________
+<punctuator, :>
+<Single line comment: // Label for goto>
+<Identifiers, printf>
+______________________________________________
+Identifier: {printf} is already present
+______________________________________________
+<punctuator, (>
+<string literal, "Size of int: %zu\n">
+<punctuator, ,>
+<KEYWORD, sizeof>
+<punctuator, (>
+<KEYWORD, int>
+<punctuator, )>
+<punctuator, )>
+<punctuator, ;>
+<Single line comment: // sizeof>
+<KEYWORD, _Bool>
+<Identifiers, condition>
+______________________________________________
+
+Identifier: {condition} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 1>
+______________________________________________
+Number: {1} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // _Bool>
+<KEYWORD, if>
+<punctuator, (>
+<Identifiers, condition>
+______________________________________________
+Identifier: {condition} is already present
+______________________________________________
+<punctuator, )>
+<punctuator, {>
+<Single line comment: // if>
+<KEYWORD, static>
+<KEYWORD, int>
+<Identifiers, counter>
+______________________________________________
+
+Identifier: {counter} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // static>
+<Identifiers, counter>
+______________________________________________
+Identifier: {counter} is already present
+______________________________________________
+<punctuator, ++>
+<punctuator, ;>
+<punctuator, }>
+<KEYWORD, _Complex>
+<KEYWORD, double>
+<Identifiers, complex_num>
+______________________________________________
+
+Identifier: {complex_num} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Floating constant, 1.0>
+______________________________________________
+
+Number: {1.0} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, +>
+<Floating constant, 2.0>
+______________________________________________
+
+Number: {2.0} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, *>
+<Identifiers, I>
+______________________________________________
+
+Identifier: {I} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // _Complex>
+<KEYWORD, default>
+<punctuator, :>
+<Single line comment: // default>
+<Identifiers, printf>
+______________________________________________
+Identifier: {printf} is already present
+______________________________________________
+<punctuator, (>
+<string literal, "Default case\n">
+<punctuator, )>
+<punctuator, ;>
+<KEYWORD, break>
+<punctuator, ;>
+<KEYWORD, do>
+<punctuator, {>
+<Single line comment: // do>
+<Identifiers, x>
+______________________________________________
+Identifier: {x} is already present
+______________________________________________
+<punctuator, ++>
+<punctuator, ;>
+<punctuator, }>
+<KEYWORD, while>
+<punctuator, (>
+<Identifiers, x>
+______________________________________________
+Identifier: {x} is already present
+______________________________________________
+<punctuator, <>
+<Integer constant, 20>
+______________________________________________
+
+Number: {20} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, )>
+<punctuator, ;>
+<KEYWORD, int>
+<Identifiers, main>
+______________________________________________
+Identifier: {main} is already present
+______________________________________________
+<punctuator, (>
+<punctuator, )>
+<punctuator, {>
+<KEYWORD, long>
+<Identifiers, longVar>
+______________________________________________
+
+Identifier: {longVar} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 1234567890>
+______________________________________________
+
+Number: {1234567890} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // long>
+<KEYWORD, typedef>
+<KEYWORD, int>
+<Identifiers, myInt>
+______________________________________________
+
+Identifier: {myInt} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // typedef>
+<Identifiers, myInt>
+______________________________________________
+Identifier: {myInt} is already present
+______________________________________________
+<Identifiers, myNum>
+______________________________________________
+
+Identifier: {myNum} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 25>
+______________________________________________
+
+Number: {25} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<KEYWORD, else>
+<punctuator, {>
+<Single line comment: // else>
+<KEYWORD, register>
+<KEYWORD, int>
+<Identifiers, regVar>
+______________________________________________
+
+Identifier: {regVar} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // register>
+<KEYWORD, union>
+<punctuator, {>
+<Single line comment: // union>
+<KEYWORD, int>
+<Identifiers, a>
+______________________________________________
+
+Identifier: {a} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<KEYWORD, float>
+<Identifiers, b>
+______________________________________________
+
+Identifier: {b} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<punctuator, }>
+<Identifiers, myUnion>
+______________________________________________
+
+Identifier: {myUnion} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<punctuator, }>
+<Identifiers, printf>
+______________________________________________
+Identifier: {printf} is already present
+______________________________________________
+<punctuator, (>
+<string literal, "Hello, World!\n">
+<punctuator, )>
+<punctuator, ;>
+<KEYWORD, return>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<punctuator, ;>
+<punctuator, }>
+<Single line comment: // Struct, inline and Imaginary examples>
+<KEYWORD, struct>
+<Identifiers, Point>
+______________________________________________
+
+Identifier: {Point} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, {>
+<Single line comment: // struct>
+<KEYWORD, int>
+<Identifiers, x>
+______________________________________________
+Identifier: {x} is already present
+______________________________________________
+<punctuator, ,>
+<Identifiers, y>
+______________________________________________
+Identifier: {y} is already present
+______________________________________________
+<punctuator, ;>
+<punctuator, }>
+<punctuator, ;>
+<KEYWORD, inline>
+<KEYWORD, void>
+<Identifiers, printMessage>
+______________________________________________
+
+Identifier: {printMessage} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, (>
+<punctuator, )>
+<punctuator, {>
+<Single line comment: // inline>
+<Identifiers, printf>
+______________________________________________
+Identifier: {printf} is already present
+______________________________________________
+<punctuator, (>
+<string literal, "This is an inline function\n">
+<punctuator, )>
+<punctuator, ;>
+<punctuator, }>
+<KEYWORD, _Imaginary>
+<KEYWORD, double>
+<Identifiers, imaginaryNum>
+______________________________________________
+
+Identifier: {imaginaryNum} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Floating constant, 3.0>
+______________________________________________
+
+Number: {3.0} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, *>
+<Identifiers, I>
+______________________________________________
+Identifier: {I} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // _Imaginary>
+<Single line comment: // Punctuatros>
+<Single line comment: // Brackets and Braces>
+<KEYWORD, int>
+<Identifiers, array>
+______________________________________________
+
+Identifier: {array} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, [>
+<Integer constant, 3>
+______________________________________________
+
+Number: {3} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ]>
+<punctuator, =>
+<punctuator, {>
+<Integer constant, 1>
+______________________________________________
+Number: {1} is already present
+______________________________________________
+<punctuator, ,>
+<Integer constant, 2>
+______________________________________________
+
+Number: {2} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ,>
+<Integer constant, 3>
+______________________________________________
+Number: {3} is already present
+______________________________________________
+<punctuator, }>
+<punctuator, ;>
+<Single line comment: // [ ] and { }>
+<KEYWORD, int>
+<Identifiers, value>
+______________________________________________
+
+Identifier: {value} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Identifiers, array>
+______________________________________________
+Identifier: {array} is already present
+______________________________________________
+<punctuator, [>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<punctuator, ]>
+<punctuator, ;>
+<Single line comment: // [ ]>
+<Single line comment: // Parentheses>
+<KEYWORD, int>
+<Identifiers, result>
+______________________________________________
+
+Identifier: {result} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<punctuator, (>
+<Identifiers, value>
+______________________________________________
+Identifier: {value} is already present
+______________________________________________
+<punctuator, +>
+<Integer constant, 1>
+______________________________________________
+Number: {1} is already present
+______________________________________________
+<punctuator, )>
+<punctuator, ;>
+<Single line comment: // ( )>
+<Single line comment: // Dot and Arrow>
+<KEYWORD, struct>
+<Identifiers, Point>
+______________________________________________
+Identifier: {Point} is already present
+______________________________________________
+<punctuator, {>
+<KEYWORD, int>
+<Identifiers, x>
+______________________________________________
+Identifier: {x} is already present
+______________________________________________
+<punctuator, ;>
+<KEYWORD, int>
+<Identifiers, y>
+______________________________________________
+Identifier: {y} is already present
+______________________________________________
+<punctuator, ;>
+<punctuator, }>
+<punctuator, ;>
+<KEYWORD, struct>
+<Identifiers, Point>
+______________________________________________
+Identifier: {Point} is already present
+______________________________________________
+<Identifiers, p>
+______________________________________________
+
+Identifier: {p} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<punctuator, {>
+<Integer constant, 1>
+______________________________________________
+Number: {1} is already present
+______________________________________________
+<punctuator, ,>
+<Integer constant, 2>
+______________________________________________
+Number: {2} is already present
+______________________________________________
+<punctuator, }>
+<punctuator, ;>
+<KEYWORD, int>
+<Identifiers, x>
+______________________________________________
+Identifier: {x} is already present
+______________________________________________
+<punctuator, =>
+<Identifiers, p>
+______________________________________________
+Identifier: {p} is already present
+______________________________________________
+<punctuator, .>
+<Identifiers, x>
+______________________________________________
+Identifier: {x} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // .>
+<KEYWORD, struct>
+<Identifiers, Point>
+______________________________________________
+Identifier: {Point} is already present
+______________________________________________
+<punctuator, *>
+<Identifiers, ptr>
+______________________________________________
+Identifier: {ptr} is already present
+______________________________________________
+<punctuator, =>
+<punctuator, &>
+<Identifiers, p>
+______________________________________________
+Identifier: {p} is already present
+______________________________________________
+<punctuator, ;>
+<KEYWORD, int>
+<Identifiers, y>
+______________________________________________
+Identifier: {y} is already present
+______________________________________________
+<punctuator, =>
+<Identifiers, ptr>
+______________________________________________
+Identifier: {ptr} is already present
+______________________________________________
+<punctuator, ->>
+<Identifiers, y>
+______________________________________________
+Identifier: {y} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // ->>
+<Single line comment: // Increment and Decrement>
+<KEYWORD, int>
+<Identifiers, i>
+______________________________________________
+Identifier: {i} is already present
+______________________________________________
+<punctuator, =>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<punctuator, ;>
+<Identifiers, i>
+______________________________________________
+Identifier: {i} is already present
+______________________________________________
+<punctuator, ++>
+<punctuator, ;>
+<Single line comment: // ++>
+<Identifiers, i>
+______________________________________________
+Identifier: {i} is already present
+______________________________________________
+<punctuator, -->
+<punctuator, ;>
+<Single line comment: // -->
+<Single line comment: // Address and Dereference>
+<KEYWORD, int>
+<punctuator, *>
+<Identifiers, ptr_value>
+______________________________________________
+
+Identifier: {ptr_value} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<punctuator, &>
+<Identifiers, value>
+______________________________________________
+Identifier: {value} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // &>
+<KEYWORD, int>
+<Identifiers, deref_value>
+______________________________________________
+
+Identifier: {deref_value} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<punctuator, *>
+<Identifiers, ptr_value>
+______________________________________________
+Identifier: {ptr_value} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // *>
+<Single line comment: // Unary Operators>
+<KEYWORD, int>
+<Identifiers, pos>
+______________________________________________
+
+Identifier: {pos} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<punctuator, +>
+<Integer constant, 5>
+______________________________________________
+Number: {5} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // +>
+<KEYWORD, int>
+<Identifiers, neg>
+______________________________________________
+
+Identifier: {neg} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<punctuator, ->
+<Integer constant, 5>
+______________________________________________
+Number: {5} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // ->
+<KEYWORD, int>
+<Identifiers, not>
+______________________________________________
+
+Identifier: {not} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<punctuator, !>
+<Identifiers, pos>
+______________________________________________
+Identifier: {pos} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // !>
+<KEYWORD, int>
+<Identifiers, complement>
+______________________________________________
+
+Identifier: {complement} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<punctuator, ~>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<Identifiers, x0F>
+______________________________________________
+
+Identifier: {x0F} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // ~>
+<Single line comment: // Arithmetic Operators>
+<KEYWORD, int>
+<Identifiers, quotient>
+______________________________________________
+
+Identifier: {quotient} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 10>
+______________________________________________
+Number: {10} is already present
+______________________________________________
+<punctuator, />
+<Integer constant, 2>
+______________________________________________
+Number: {2} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // />
+<KEYWORD, int>
+<Identifiers, remainder>
+______________________________________________
+
+Identifier: {remainder} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 10>
+______________________________________________
+Number: {10} is already present
+______________________________________________
+<punctuator, %>
+<Integer constant, 3>
+______________________________________________
+Number: {3} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // %>
+<KEYWORD, int>
+<Identifiers, shiftedLeft>
+______________________________________________
+
+Identifier: {shiftedLeft} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 1>
+______________________________________________
+Number: {1} is already present
+______________________________________________
+<punctuator, <<>
+<Integer constant, 2>
+______________________________________________
+Number: {2} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // <<>
+<KEYWORD, int>
+<Identifiers, shiftedRight>
+______________________________________________
+
+Identifier: {shiftedRight} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 4>
+______________________________________________
+
+Number: {4} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, >>>
+<Integer constant, 1>
+______________________________________________
+Number: {1} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // >>>
+<Single line comment: // Comparison Operators>
+<KEYWORD, int>
+<Identifiers, less>
+______________________________________________
+
+Identifier: {less} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 3>
+______________________________________________
+Number: {3} is already present
+______________________________________________
+<punctuator, <>
+<Integer constant, 5>
+______________________________________________
+Number: {5} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // <>
+<KEYWORD, int>
+<Identifiers, greater>
+______________________________________________
+
+Identifier: {greater} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 5>
+______________________________________________
+Number: {5} is already present
+______________________________________________
+<punctuator, >>
+<Integer constant, 3>
+______________________________________________
+Number: {3} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // >>
+<KEYWORD, int>
+<Identifiers, lessEqual>
+______________________________________________
+
+Identifier: {lessEqual} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 3>
+______________________________________________
+Number: {3} is already present
+______________________________________________
+<punctuator, <=>
+<Integer constant, 3>
+______________________________________________
+Number: {3} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // <=>
+<KEYWORD, int>
+<Identifiers, greaterEqual>
+______________________________________________
+
+Identifier: {greaterEqual} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 5>
+______________________________________________
+Number: {5} is already present
+______________________________________________
+<punctuator, >=>
+<Integer constant, 4>
+______________________________________________
+Number: {4} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // >=>
+<KEYWORD, int>
+<Identifiers, equal>
+______________________________________________
+
+Identifier: {equal} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<punctuator, (>
+<Integer constant, 3>
+______________________________________________
+Number: {3} is already present
+______________________________________________
+<punctuator, ==>
+<Integer constant, 3>
+______________________________________________
+Number: {3} is already present
+______________________________________________
+<punctuator, )>
+<punctuator, ;>
+<Single line comment: // ==>
+<KEYWORD, int>
+<Identifiers, notEqual>
+______________________________________________
+
+Identifier: {notEqual} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<punctuator, (>
+<Integer constant, 3>
+______________________________________________
+Number: {3} is already present
+______________________________________________
+<punctuator, !=>
+<Integer constant, 4>
+______________________________________________
+Number: {4} is already present
+______________________________________________
+<punctuator, )>
+<punctuator, ;>
+<Single line comment: // !=>
+<Single line comment: // Bitwise Operators>
+<KEYWORD, int>
+<Identifiers, and>
+______________________________________________
+
+Identifier: {and} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<Identifiers, x0F>
+______________________________________________
+Identifier: {x0F} is already present
+______________________________________________
+<punctuator, &>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<Identifiers, xF0>
+______________________________________________
+
+Identifier: {xF0} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // &>
+<KEYWORD, int>
+<Identifiers, or>
+______________________________________________
+
+Identifier: {or} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<Identifiers, x0F>
+______________________________________________
+Identifier: {x0F} is already present
+______________________________________________
+<punctuator, |>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<Identifiers, xF0>
+______________________________________________
+Identifier: {xF0} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // |>
+<KEYWORD, int>
+<Identifiers, xor>
+______________________________________________
+
+Identifier: {xor} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<Identifiers, x0F>
+______________________________________________
+Identifier: {x0F} is already present
+______________________________________________
+<punctuator, ^>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<Identifiers, xF0>
+______________________________________________
+Identifier: {xF0} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // ^>
+<Single line comment: // Logical Operators>
+<KEYWORD, int>
+<Identifiers, logicalAnd>
+______________________________________________
+
+Identifier: {logicalAnd} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<punctuator, (>
+<Integer constant, 1>
+______________________________________________
+Number: {1} is already present
+______________________________________________
+<punctuator, &&>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<punctuator, )>
+<punctuator, ;>
+<Single line comment: // &&>
+<KEYWORD, int>
+<Identifiers, logicalOr>
+______________________________________________
+
+Identifier: {logicalOr} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<punctuator, (>
+<Integer constant, 1>
+______________________________________________
+Number: {1} is already present
+______________________________________________
+<punctuator, ||>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<punctuator, )>
+<punctuator, ;>
+<Single line comment: // ||>
+<Single line comment: // Conditional Operator>
+<KEYWORD, int>
+<Identifiers, max>
+______________________________________________
+Identifier: {max} is already present
+______________________________________________
+<punctuator, =>
+<punctuator, (>
+<Identifiers, a>
+______________________________________________
+Identifier: {a} is already present
+______________________________________________
+<punctuator, >>
+<Identifiers, b>
+______________________________________________
+Identifier: {b} is already present
+______________________________________________
+<punctuator, )>
+<punctuator, ?>
+<Identifiers, a>
+______________________________________________
+Identifier: {a} is already present
+______________________________________________
+<punctuator, :>
+<Identifiers, b>
+______________________________________________
+Identifier: {b} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // ? :>
+<Single line comment: // Semicolon>
+<KEYWORD, int>
+<Identifiers, j>
+______________________________________________
+
+Identifier: {j} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 5>
+______________________________________________
+Number: {5} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // ;>
+<Single line comment: // Ellipsis>
+<KEYWORD, void>
+<Identifiers, variadic>
+______________________________________________
+
+Identifier: {variadic} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, (>
+<KEYWORD, int>
+<Identifiers, num>
+______________________________________________
+Identifier: {num} is already present
+______________________________________________
+<punctuator, ,>
+<punctuator, ...>
+<punctuator, )>
+<punctuator, {>
+<punctuator, }>
+<Single line comment: // ...>
+<Single line comment: // Assignment and Compound Assignment>
+<KEYWORD, int>
+<Identifiers, assign>
+______________________________________________
+
+Identifier: {assign} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 10>
+______________________________________________
+Number: {10} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // =>
+<Identifiers, assign>
+______________________________________________
+Identifier: {assign} is already present
+______________________________________________
+<punctuator, *=>
+<Integer constant, 2>
+______________________________________________
+Number: {2} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // *=>
+<Identifiers, assign>
+______________________________________________
+Identifier: {assign} is already present
+______________________________________________
+<punctuator, /=>
+<Integer constant, 2>
+______________________________________________
+Number: {2} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // /=>
+<Identifiers, assign>
+______________________________________________
+Identifier: {assign} is already present
+______________________________________________
+<punctuator, %=>
+<Integer constant, 3>
+______________________________________________
+Number: {3} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // %=>
+<Identifiers, assign>
+______________________________________________
+Identifier: {assign} is already present
+______________________________________________
+<punctuator, +=>
+<Integer constant, 5>
+______________________________________________
+Number: {5} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // +=>
+<Identifiers, assign>
+______________________________________________
+Identifier: {assign} is already present
+______________________________________________
+<punctuator, -=>
+<Integer constant, 2>
+______________________________________________
+Number: {2} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // -=>
+<Identifiers, assign>
+______________________________________________
+Identifier: {assign} is already present
+______________________________________________
+<punctuator, <<=>
+<Integer constant, 1>
+______________________________________________
+Number: {1} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // <<=>
+<Identifiers, assign>
+______________________________________________
+Identifier: {assign} is already present
+______________________________________________
+<punctuator, >>=>
+<Integer constant, 1>
+______________________________________________
+Number: {1} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // >>=>
+<Identifiers, assign>
+______________________________________________
+Identifier: {assign} is already present
+______________________________________________
+<punctuator, &=>
+<Integer constant, 10>
+______________________________________________
+Number: {10} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // &=>
+<Identifiers, assign>
+______________________________________________
+Identifier: {assign} is already present
+______________________________________________
+<punctuator, ^=>
+<Integer constant, 12>
+______________________________________________
+
+Number: {12} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<Single line comment: // ^=>
+<Identifiers, assign>
+______________________________________________
+Identifier: {assign} is already present
+______________________________________________
+<punctuator, |=>
+<Integer constant, 1>
+______________________________________________
+Number: {1} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // |=>
+<Single line comment: // Comma>
+<KEYWORD, int>
+<Identifiers, a>
+______________________________________________
+Identifier: {a} is already present
+______________________________________________
+<punctuator, =>
+<Integer constant, 1>
+______________________________________________
+Number: {1} is already present
+______________________________________________
+<punctuator, ,>
+<Identifiers, b>
+______________________________________________
+Identifier: {b} is already present
+______________________________________________
+<punctuator, =>
+<Integer constant, 2>
+______________________________________________
+Number: {2} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // ,>
+<Single line comment: //Incomplete string >
+<KEYWORD, char>
+<punctuator, *>
+<Identifiers, str>
+______________________________________________
+
+Identifier: {str} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+Invalid string: "Incomplete string;
+<Single line comment: // Valid string>
+<KEYWORD, char>
+<punctuator, *>
+<Identifiers, str2>
+______________________________________________
+
+Identifier: {str2} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<string literal, "valid string literal\n">
+<punctuator, ;>
+<KEYWORD, enum>
+<Identifiers, ENUM>
+______________________________________________
+
+Identifier: {ENUM} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<KEYWORD, int>
+<Identifiers, num>
+______________________________________________
+Identifier: {num} is already present
+______________________________________________
+<punctuator, =>
+<Integer constant, 11234567>
+______________________________________________
+
+Number: {11234567} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<KEYWORD, float>
+<Identifiers, num2>
+______________________________________________
+
+Identifier: {num2} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Floating constant, 1.234567>
+______________________________________________
+
+Number: {1.234567} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<KEYWORD, float>
+<Identifiers, num3>
+______________________________________________
+
+Identifier: {num3} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Floating constant, 2.0e-3>
+______________________________________________
+
+Number: {2.0e-3} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<KEYWORD, auto>
+<Identifiers, ___12num4>
+______________________________________________
+
+Identifier: {___12num4} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Floating constant, .3E2>
+______________________________________________
+
+Number: {.3E2} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<KEYWORD, auto>
+<Identifiers, zero0>
+______________________________________________
+
+Identifier: {zero0} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<punctuator, ;>
+<KEYWORD, auto>
+<Identifiers, invalid_num>
+______________________________________________
+
+Identifier: {invalid_num} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<Integer constant, 0>
+______________________________________________
+Number: {0} is already present
+______________________________________________
+<Integer constant, 1>
+______________________________________________
+Number: {1} is already present
+______________________________________________
+<punctuator, ;>
+<KEYWORD, char>
+<Identifiers, invalid_char2>
+______________________________________________
+
+Identifier: {invalid_char2} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+Invalid char constant:  '
+Invalid char constant:  '; // Empty character constant
+<KEYWORD, auto>
+<Identifiers, frac>
+______________________________________________
+
+Identifier: {frac} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Floating constant, .5>
+______________________________________________
+
+Number: {.5} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<KEYWORD, auto>
+<Identifiers, num5>
+______________________________________________
+
+Identifier: {num5} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Floating constant, 1234567e-3>
+______________________________________________
+
+Number: {1234567e-3} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<KEYWORD, auto>
+<Identifiers, num6>
+______________________________________________
+
+Identifier: {num6} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Floating constant, 1234567.>
+______________________________________________
+
+Number: {1234567.} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, ;>
+<KEYWORD, char>
+<Identifiers, invalid_single>
+______________________________________________
+
+Identifier: {invalid_single} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<char constant, '`'>
+<punctuator, ;>
+<Single line comment: // Valid and Invalid Character Constants>
+<KEYWORD, char>
+<Identifiers, valid_char1>
+______________________________________________
+
+Identifier: {valid_char1} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<char constant, 'a'>
+<punctuator, ;>
+<Single line comment: // Valid single character>
+<KEYWORD, char>
+<Identifiers, valid_char2>
+______________________________________________
+
+Identifier: {valid_char2} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<char constant, '\n'>
+<punctuator, ;>
+<Single line comment: // Valid escape sequence>
+<KEYWORD, char>
+<Identifiers, invalid_char1>
+______________________________________________
+
+Identifier: {invalid_char1} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<char constant, 'ab'>
+<punctuator, ;>
+<Single line comment: // Invalid: more than one character>
+<KEYWORD, char>
+<Identifiers, invalid_char2>
+______________________________________________
+Identifier: {invalid_char2} is already present
+______________________________________________
+<punctuator, =>
+Invalid char constant:  '
+Invalid token:  \
+<Identifiers, z>
+______________________________________________
+Identifier: {z} is already present
+______________________________________________
+Invalid char constant:  ';   // Invalid escape sequence
+<KEYWORD, char>
+<Identifiers, invalid_char3>
+______________________________________________
+
+Identifier: {invalid_char3} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+Invalid char constant:  '
+Invalid char constant:  ';     // Invalid: empty character constant
+<Single line comment: // Valid and Invalid String Literals>
+<KEYWORD, char>
+<punctuator, *>
+<Identifiers, valid_string1>
+______________________________________________
+
+Identifier: {valid_string1} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<string literal, "Hello, World!">
+<punctuator, ;>
+<Single line comment: // Valid string literal>
+<KEYWORD, char>
+<punctuator, *>
+<Identifiers, valid_string2>
+______________________________________________
+
+Identifier: {valid_string2} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<string literal, "Escape sequence: \n">
+<punctuator, ;>
+<Single line comment: // Valid string with escape>
+<KEYWORD, char>
+<punctuator, *>
+<Identifiers, invalid_string1>
+______________________________________________
+
+Identifier: {invalid_string1} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+Invalid string: "Unterminated string;  // Invalid: no closing quote
+<KEYWORD, char>
+<punctuator, *>
+<Identifiers, invalid_string2>
+______________________________________________
+
+Identifier: {invalid_string2} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+Invalid string: "Invalid escape: 
+Invalid token:  \
+<Identifiers, z>
+______________________________________________
+Identifier: {z} is already present
+______________________________________________
+Invalid string: ";  // Invalid: bad escape sequence
+<Single line comment: // Valid and Invalid Punctuators>
+<KEYWORD, int>
+<Identifiers, x>
+______________________________________________
+Identifier: {x} is already present
+______________________________________________
+<punctuator, =>
+<punctuator, (>
+<Integer constant, 5>
+______________________________________________
+Number: {5} is already present
+______________________________________________
+<punctuator, +>
+<Integer constant, 3>
+______________________________________________
+Number: {3} is already present
+______________________________________________
+<punctuator, )>
+<punctuator, *>
+<Integer constant, 2>
+______________________________________________
+Number: {2} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // Valid punctuators: (), +, *, = >
+<KEYWORD, int>
+<Identifiers, y>
+______________________________________________
+Identifier: {y} is already present
+______________________________________________
+<punctuator, =>
+<Identifiers, x>
+______________________________________________
+Identifier: {x} is already present
+______________________________________________
+<punctuator, -->
+<punctuator, ;>
+<Single line comment: // Valid: -- operator>
+<KEYWORD, int>
+<Identifiers, z>
+______________________________________________
+Identifier: {z} is already present
+______________________________________________
+<punctuator, =>
+<Identifiers, x>
+______________________________________________
+Identifier: {x} is already present
+______________________________________________
+<punctuator, &&>
+<Identifiers, y>
+______________________________________________
+Identifier: {y} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // Valid: && logical operator>
+<KEYWORD, int>
+<Identifiers, invalid_punctuator>
+______________________________________________
+
+Identifier: {invalid_punctuator} is added to the Symbol Table
+
+______________________________________________
+
+<punctuator, =>
+<Identifiers, x>
+______________________________________________
+Identifier: {x} is already present
+______________________________________________
+<punctuator, ?>
+<punctuator, ?>
+<punctuator, ?>
+<Identifiers, y>
+______________________________________________
+Identifier: {y} is already present
+______________________________________________
+<punctuator, ;>
+<Single line comment: // Invalid: ??? not defined as a punctuator>
+<Single line comment: // Valid and Invalid Comments>
+<Multi line comment: /* This is a valid multi-line comment */>
+<Single line comment: // This is a valid single-line comment>
+<Multi line comment: /* Unclosed multi-line comment example 
+    /* Nested comment /* example */>
+Multi line comment end token (*/) recognized without its prior start token (/*)
+<Single line comment: // Invalid Tokens>
+<Multi line comment: /* Multi-line comment with ending token (*/>
+<punctuator, )>
+<Identifiers, which>
+______________________________________________
+
+Identifier: {which} is added to the Symbol Table
+
+______________________________________________
+
+<Identifiers, should>
+______________________________________________
+
+Identifier: {should} is added to the Symbol Table
+
+______________________________________________
+
+<Identifiers, be>
+______________________________________________
+
+Identifier: {be} is added to the Symbol Table
+
+______________________________________________
+
+<Identifiers, detected>
+______________________________________________
+
+Identifier: {detected} is added to the Symbol Table
+
+______________________________________________
+
+Multi line comment end token (*/) recognized without its prior start token (/*)
+<punctuator, *>
+<punctuator, />
+<Multi line comment: /* Invalid sequence detected without starting comment */>
+<punctuator, }>
+
+*******************Identifier Symbol Table*******************
+Id: detected
+Id: be
+Id: should
+Id: which
+Id: invalid_punctuator
+Id: invalid_string2
+Id: invalid_string1
+Id: valid_string2
+Id: valid_string1
+Id: invalid_char3
+Id: invalid_char1
+Id: valid_char2
+Id: valid_char1
+Id: invalid_single
+Id: num6
+Id: num5
+Id: frac
+Id: invalid_char2
+Id: invalid_num
+Id: zero0
+Id: ___12num4
+Id: num3
+Id: num2
+Id: ENUM
+Id: str2
+Id: str
+Id: assign
+Id: variadic
+Id: j
+Id: logicalOr
+Id: logicalAnd
+Id: xor
+Id: or
+Id: xF0
+Id: and
+Id: notEqual
+Id: equal
+Id: greaterEqual
+Id: lessEqual
+Id: greater
+Id: less
+Id: shiftedRight
+Id: shiftedLeft
+Id: remainder
+Id: quotient
+Id: x0F
+Id: complement
+Id: not
+Id: neg
+Id: pos
+Id: deref_value
+Id: ptr_value
+Id: p
+Id: result
+Id: value
+Id: array
+Id: imaginaryNum
+Id: printMessage
+Id: Point
+Id: myUnion
+Id: b
+Id: a
+Id: regVar
+Id: myNum
+Id: myInt
+Id: longVar
+Id: I
+Id: complex_num
+Id: counter
+Id: condition
+Id: label
+Id: max
+Id: num
+Id: i
+Id: c
+Id: flag
+Id: z
+Id: pi
+Id: printf
+Id: y
+Id: function
+Id: count
+Id: ptr
+Id: x
+Id: main
+
+*********************Number Symbol Table*********************
+Num: 1234567.
+Num: 1234567e-3
+Num: .5
+Num: .3E2
+Num: 2.0e-3
+Num: 1.234567
+Num: 11234567
+Num: 12
+Num: 4
+Num: 2
+Num: 3
+Num: 3.0
+Num: 25
+Num: 1234567890
+Num: 20
+Num: 2.0
+Num: 1.0
+Num: 50
+Num: 0
+Num: 5
+Num: 3.14
+Num: 1
+Num: 100
+Num: 10
+
