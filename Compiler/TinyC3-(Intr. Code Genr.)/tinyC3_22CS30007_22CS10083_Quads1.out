@@ -1,0 +1,153 @@
+Symbol Table Entry:
+name: c
+type: int
+init: (null)
+size: 4
+offset: 0
+nested_st of c is NULL
+Symbol Table Entry:
+name: main
+type: function
+init: (null)
+size: 0
+offset: 4
+Nested Symbol Table of main:
+    Symbol Table Entry:
+    name: a
+    type: int
+    init: (null)
+    size: 4
+    offset: 0
+    nested_st of a is NULL
+    Symbol Table Entry:
+    name: b
+    type: float
+    init: (null)
+    size: 8
+    offset: 4
+    nested_st of b is NULL
+    Symbol Table Entry:
+    name: d
+    type: char
+    init: (null)
+    size: 1
+    offset: 12
+    nested_st of d is NULL
+    Symbol Table Entry:
+    name: FOR_0
+    type: (null)
+    init: (null)
+    size: 0
+    offset: 13
+    Nested Symbol Table of FOR_0:
+        Symbol Table Entry:
+        name: t1
+        type: int
+        init: (null)
+        size: 1
+        offset: 0
+        nested_st of t1 is NULL
+        Symbol Table Entry:
+        name: t2
+        type: bool
+        init: (null)
+        size: 1
+        offset: 1
+        nested_st of t2 is NULL
+        Symbol Table Entry:
+        name: t3
+        type: int
+        init: (null)
+        size: 4
+        offset: 2
+        nested_st of t3 is NULL
+        Symbol Table Entry:
+        name: t4
+        type: bool
+        init: (null)
+        size: 1
+        offset: 6
+        nested_st of t4 is NULL
+        Symbol Table Entry:
+        name: t5
+        type: int
+        init: (null)
+        size: 1
+        offset: 7
+        nested_st of t5 is NULL
+        Symbol Table Entry:
+        name: t6
+        type: int
+        init: (null)
+        size: 4
+        offset: 8
+        nested_st of t6 is NULL
+        Symbol Table Entry:
+        name: t7
+        type: int
+        init: (null)
+        size: 4
+        offset: 12
+        nested_st of t7 is NULL
+        Symbol Table Entry:
+        name: t8
+        type: int
+        init: (null)
+        size: 4
+        offset: 16
+        nested_st of t8 is NULL
+        Symbol Table Entry:
+        name: t9
+        type: int
+        init: (null)
+        size: 4
+        offset: 20
+        nested_st of t9 is NULL
+        Symbol Table Entry:
+        st->name is NULL
+        nested_st of (null) is NULL
+        next of (null) is NULL
+    Symbol Table Entry:
+    name: retVal
+    type: int
+    init: (null)
+    size: 0
+    offset: 13
+    nested_st of retVal is NULL
+    Symbol Table Entry:
+    st->name is NULL
+    nested_st of (null) is NULL
+    next of (null) is NULL
+Symbol Table Entry:
+st->name is NULL
+nested_st of (null) is NULL
+next of (null) is NULL
+
+| Idx   | Op         | Arg1       | Arg2       | Result     |
+---------------------------------------------------------------
+| 0     | =          | 8          | NULL       | a          |
+| 1     | =          | 8          | NULL       | c          |
+| 2     | =          | a          | NULL       | t1         |
+| 3     | to_bool    | t1         | NULL       | t2         |
+| 4     | IF         | t2         | NULL       | 11         |
+| 5     | GOTO       | NULL       | NULL       | 24         |
+| 6     | =          | c          | NULL       | t3         |
+| 7     | <          | t3         | 9          | t4         |
+| 8     | IF         | t4         | NULL       | 2          |
+| 9     | GOTO       | NULL       | NULL       | 2          |
+| 10    | GOTO       | NULL       | NULL       | 2          |
+| 11    | =          | 1          | NULL       | t5         |
+| 12    | GOTO       | NULL       | NULL       | 14         |
+| 13    | =          | 0          | NULL       | t5         |
+| 14    | =          | c          | NULL       | t6         |
+| 15    | +          | t6         | t5         | t7         |
+| 16    | =          | t7         | NULL       | c          |
+| 17    | =          | a          | NULL       | t8         |
+| 18    | +          | t8         | 1          | t8         |
+| 19    | =          | t8         | NULL       | a          |
+| 20    | =          | c          | NULL       | t9         |
+| 21    | +          | t9         | 1          | t9         |
+| 22    | =          | t9         | NULL       | c          |
+| 23    | GOTO       | NULL       | NULL       | 6          |
+| 24    | END        | NULL       | NULL       | NULL       |
+---------------------------------------------------------------
