@@ -1,0 +1,71 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_wrapper_tb_behav xil_defaultlib.top_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_1
+Compiling module xil_defaultlib.rom_mem
+Compiling module xil_defaultlib.halfadder
+Compiling module xil_defaultlib.fulladder
+Compiling module xil_defaultlib.EightBitAdder
+Compiling module xil_defaultlib.ThirtyTwo_BitAdder
+Compiling module xil_defaultlib.Two_to_1_Mux
+Compiling module xil_defaultlib.ThirtyTwoBit2_1_Mux
+Compiling module xil_defaultlib.select_b
+Compiling module xil_defaultlib.combinational_circuit
+Compiling module xil_defaultlib.reg_bank
+Compiling module xil_defaultlib.stack_reg
+Compiling module xil_defaultlib.Four_to_1_Mux
+Compiling module xil_defaultlib.Eight_to_1_Mux
+Compiling module xil_defaultlib.ThirtyTwo_Bit_Eight_to_1_Mux
+Compiling module xil_defaultlib.op_decider
+Compiling module xil_defaultlib.halfsubtractor
+Compiling module xil_defaultlib.fullsubtractor
+Compiling module xil_defaultlib.EightBitSubtractor
+Compiling module xil_defaultlib.ThirtyTwo_BitSubtractor
+Compiling module xil_defaultlib.Eight_BitAnd
+Compiling module xil_defaultlib.ThirtyTwo_BitAnd
+Compiling module xil_defaultlib.Eight_BitOr
+Compiling module xil_defaultlib.Thirtytwo_BitOr
+Compiling module xil_defaultlib.EightBitXor
+Compiling module xil_defaultlib.ThirtyTwo_BitXor
+Compiling module xil_defaultlib.EightBitNor
+Compiling module xil_defaultlib.ThirtyTwo_BitNor
+Compiling module xil_defaultlib.EightBitnotGate
+Compiling module xil_defaultlib.ThirtyTwo_BitnotGate
+Compiling module xil_defaultlib.left_shift
+Compiling module xil_defaultlib.right_shift_log
+Compiling module xil_defaultlib.right_shift_arith
+Compiling module xil_defaultlib.add_4
+Compiling module xil_defaultlib.sub_4
+Compiling module xil_defaultlib.slt
+Compiling module xil_defaultlib.sgt
+Compiling module xil_defaultlib.lui
+Compiling module xil_defaultlib.twoBitadder
+Compiling module xil_defaultlib.Three_Bit_adder
+Compiling module xil_defaultlib.fourBitadder
+Compiling module xil_defaultlib.five_bitAdder
+Compiling module xil_defaultlib.hamming
+Compiling module xil_defaultlib.Sixteen_to_1_Mux
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.comp
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling module xil_defaultlib.ram_mem
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.top_wrapper
+Compiling module xil_defaultlib.clk_top_wrapper
+Compiling module xil_defaultlib.top_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_wrapper_tb_behav

@@ -1,0 +1,31 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../K_ALU_Final_Bram.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../K_ALU_Final_Bram.gen/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/adder.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/and.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/control_unit.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/hamming.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/inc_dec.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/left_shift.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/lui_mod.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/nor_gates.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/not_gates.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/or_gates.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/ram_mem.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/reg_bank.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/right_shift.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/rom_mem.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/slt_and_sgt.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/stack_reg.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/sub_mod.v" \
+"../../../../K_ALU_Final_Bram.srcs/sources_1/new/xor_gates.v" \
+"../../../../K_ALU_Final_Bram.srcs/sim_1/new/test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

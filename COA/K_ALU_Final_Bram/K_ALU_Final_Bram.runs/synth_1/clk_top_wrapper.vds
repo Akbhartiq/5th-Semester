@@ -1,0 +1,495 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Nov 13 13:25:24 2024
+# Process ID: 12444
+# Current directory: C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.runs/synth_1
+# Command line: vivado.exe -log clk_top_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_top_wrapper.tcl
+# Log file: C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.runs/synth_1/clk_top_wrapper.vds
+# Journal file: C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.runs/synth_1\vivado.jou
+# Running On        :ADITYA
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+# CPU Frequency     :1190 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8350 MB
+# Swap memory       :10607 MB
+# Total Virtual     :18958 MB
+# Available Virtual :6654 MB
+#-----------------------------------------------------------
+source clk_top_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 514.715 ; gain = 199.777
+Command: read_checkpoint -auto_incremental -incremental C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/utils_1/imports/synth_1/clk_top_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/utils_1/imports/synth_1/clk_top_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top clk_top_wrapper -part xc7a100tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-3
+INFO: [Device 21-9227] Part: xc7a100tcsg324-3 does not have CEAM library.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 23896
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1394.082 ; gain = 449.621
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 't3', assumed default net type 'wire' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:45]
+INFO: [Synth 8-11241] undeclared symbol 't0', assumed default net type 'wire' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:69]
+INFO: [Synth 8-11241] undeclared symbol 't1', assumed default net type 'wire' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:70]
+INFO: [Synth 8-11241] undeclared symbol 't0', assumed default net type 'wire' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:110]
+INFO: [Synth 8-11241] undeclared symbol 't1', assumed default net type 'wire' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:111]
+INFO: [Synth 8-11241] undeclared symbol 't0', assumed default net type 'wire' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/sub_mod.v:49]
+INFO: [Synth 8-11241] undeclared symbol 'c0', assumed default net type 'wire' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/sub_mod.v:49]
+INFO: [Synth 8-11241] undeclared symbol 'c1', assumed default net type 'wire' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/sub_mod.v:50]
+INFO: [Synth 8-11241] undeclared symbol 'halt_signal', assumed default net type 'wire' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:519]
+INFO: [Synth 8-6157] synthesizing module 'clk_top_wrapper' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:545]
+INFO: [Synth 8-6157] synthesizing module 'top_wrapper' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:206]
+INFO: [Synth 8-6157] synthesizing module 'rom_mem' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/rom_mem.v:3]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_1' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.runs/synth_1/.Xil/Vivado-12444-ADITYA/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_1' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.runs/synth_1/.Xil/Vivado-12444-ADITYA/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rom_mem' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/rom_mem.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ThirtyTwo_BitAdder' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:152]
+INFO: [Synth 8-6157] synthesizing module 'EightBitAdder' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:127]
+INFO: [Synth 8-6157] synthesizing module 'fulladder' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:37]
+INFO: [Synth 8-6157] synthesizing module 'halfadder' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'halfadder' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'fulladder' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'EightBitAdder' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:127]
+INFO: [Synth 8-6155] done synthesizing module 'ThirtyTwo_BitAdder' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:152]
+INFO: [Synth 8-6157] synthesizing module 'select_b' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:187]
+INFO: [Synth 8-6157] synthesizing module 'ThirtyTwoBit2_1_Mux' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:170]
+INFO: [Synth 8-6157] synthesizing module 'Two_to_1_Mux' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'Two_to_1_Mux' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ThirtyTwoBit2_1_Mux' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:170]
+INFO: [Synth 8-6155] done synthesizing module 'select_b' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:187]
+INFO: [Synth 8-6157] synthesizing module 'combinational_circuit' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:160]
+INFO: [Synth 8-6155] done synthesizing module 'combinational_circuit' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:160]
+WARNING: [Synth 8-7071] port 'funct' of module 'combinational_circuit' is unconnected for instance 'comb_inst' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:310]
+WARNING: [Synth 8-7023] instance 'comb_inst' of module 'combinational_circuit' has 8 connections declared, but only 7 given [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:310]
+INFO: [Synth 8-6157] synthesizing module 'reg_bank' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/reg_bank.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'reg_bank' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/reg_bank.v:24]
+INFO: [Synth 8-6157] synthesizing module 'stack_reg' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/stack_reg.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'stack_reg' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/stack_reg.v:24]
+INFO: [Synth 8-6157] synthesizing module 'ThirtyTwo_Bit_Eight_to_1_Mux' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:117]
+INFO: [Synth 8-6157] synthesizing module 'Eight_to_1_Mux' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:62]
+INFO: [Synth 8-6157] synthesizing module 'Four_to_1_Mux' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:43]
+INFO: [Synth 8-6155] done synthesizing module 'Four_to_1_Mux' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:43]
+INFO: [Synth 8-6155] done synthesizing module 'Eight_to_1_Mux' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'ThirtyTwo_Bit_Eight_to_1_Mux' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:117]
+INFO: [Synth 8-6157] synthesizing module 'op_decider' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:93]
+INFO: [Synth 8-226] default block is never used [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:103]
+INFO: [Synth 8-6155] done synthesizing module 'op_decider' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:93]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ThirtyTwo_BitSubtractor' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/sub_mod.v:82]
+INFO: [Synth 8-6157] synthesizing module 'EightBitSubtractor' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/sub_mod.v:58]
+INFO: [Synth 8-6157] synthesizing module 'fullsubtractor' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/sub_mod.v:43]
+INFO: [Synth 8-6157] synthesizing module 'halfsubtractor' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/sub_mod.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'halfsubtractor' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/sub_mod.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'fullsubtractor' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/sub_mod.v:43]
+INFO: [Synth 8-6155] done synthesizing module 'EightBitSubtractor' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/sub_mod.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'ThirtyTwo_BitSubtractor' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/sub_mod.v:82]
+INFO: [Synth 8-6157] synthesizing module 'ThirtyTwo_BitAnd' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/and.v:42]
+INFO: [Synth 8-6157] synthesizing module 'Eight_BitAnd' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/and.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'Eight_BitAnd' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/and.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ThirtyTwo_BitAnd' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/and.v:42]
+INFO: [Synth 8-6157] synthesizing module 'Thirtytwo_BitOr' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/or_gates.v:41]
+INFO: [Synth 8-6157] synthesizing module 'Eight_BitOr' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/or_gates.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Eight_BitOr' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/or_gates.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Thirtytwo_BitOr' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/or_gates.v:41]
+INFO: [Synth 8-6157] synthesizing module 'ThirtyTwo_BitXor' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/xor_gates.v:44]
+INFO: [Synth 8-6157] synthesizing module 'EightBitXor' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/xor_gates.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'EightBitXor' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/xor_gates.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ThirtyTwo_BitXor' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/xor_gates.v:44]
+INFO: [Synth 8-6157] synthesizing module 'ThirtyTwo_BitNor' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/nor_gates.v:44]
+INFO: [Synth 8-6157] synthesizing module 'EightBitNor' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/nor_gates.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'EightBitNor' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/nor_gates.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ThirtyTwo_BitNor' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/nor_gates.v:44]
+INFO: [Synth 8-6157] synthesizing module 'ThirtyTwo_BitnotGate' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/not_gates.v:44]
+INFO: [Synth 8-6157] synthesizing module 'EightBitnotGate' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/not_gates.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'EightBitnotGate' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/not_gates.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ThirtyTwo_BitnotGate' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/not_gates.v:44]
+INFO: [Synth 8-6157] synthesizing module 'left_shift' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/left_shift.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'left_shift' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/left_shift.v:24]
+INFO: [Synth 8-6157] synthesizing module 'right_shift_log' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/right_shift.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'right_shift_log' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/right_shift.v:22]
+INFO: [Synth 8-6157] synthesizing module 'right_shift_arith' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/right_shift.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'right_shift_arith' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/right_shift.v:64]
+INFO: [Synth 8-6157] synthesizing module 'add_4' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/inc_dec.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'add_4' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/inc_dec.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sub_4' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/inc_dec.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'sub_4' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/inc_dec.v:38]
+INFO: [Synth 8-6157] synthesizing module 'slt' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/slt_and_sgt.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'slt' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/slt_and_sgt.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sgt' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/slt_and_sgt.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'sgt' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/slt_and_sgt.v:38]
+INFO: [Synth 8-6157] synthesizing module 'lui' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/lui_mod.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'lui' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/lui_mod.v:34]
+INFO: [Synth 8-6157] synthesizing module 'hamming' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/hamming.v:24]
+INFO: [Synth 8-6157] synthesizing module 'twoBitadder' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:54]
+INFO: [Synth 8-6155] done synthesizing module 'twoBitadder' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:54]
+INFO: [Synth 8-6157] synthesizing module 'Three_Bit_adder' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'Three_Bit_adder' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:70]
+INFO: [Synth 8-6157] synthesizing module 'fourBitadder' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:89]
+INFO: [Synth 8-6155] done synthesizing module 'fourBitadder' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:89]
+INFO: [Synth 8-6157] synthesizing module 'five_bitAdder' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:108]
+INFO: [Synth 8-6155] done synthesizing module 'five_bitAdder' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/adder.v:108]
+INFO: [Synth 8-6155] done synthesizing module 'hamming' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/hamming.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Sixteen_to_1_Mux' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:81]
+INFO: [Synth 8-6155] done synthesizing module 'Sixteen_to_1_Mux' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/mux_modules.v:81]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'comp' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/slt_and_sgt.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'comp' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/slt_and_sgt.v:55]
+INFO: [Synth 8-6157] synthesizing module 'ram_mem' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/ram_mem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.runs/synth_1/.Xil/Vivado-12444-ADITYA/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.runs/synth_1/.Xil/Vivado-12444-ADITYA/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ram_mem' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/ram_mem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'control_unit' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/control_unit.v:24]
+WARNING: [Synth 8-567] referenced signal 'op_code' should be on the sensitivity list [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/control_unit.v:68]
+WARNING: [Synth 8-567] referenced signal 'funct' should be on the sensitivity list [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/control_unit.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'control_unit' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/control_unit.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'top_wrapper' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:206]
+INFO: [Synth 8-6155] done synthesizing module 'clk_top_wrapper' (0#1) [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/k_alu.v:545]
+WARNING: [Synth 8-7129] Port addr[31] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[30] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[29] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[28] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[27] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[26] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[25] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[24] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[23] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[22] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[21] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[20] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[19] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[18] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[11] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[10] in module ram_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[31] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[30] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[29] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[28] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[27] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[26] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[25] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[24] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[23] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[22] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[21] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[20] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[19] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[18] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[17] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[16] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[15] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[14] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[13] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[12] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[11] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[10] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[9] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[8] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[7] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[6] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[5] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[4] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[3] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[2] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[1] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[0] in module hamming is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[15] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[14] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[13] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[12] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[11] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[10] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[9] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[8] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[7] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[6] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[5] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[4] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[3] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[2] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[1] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[0] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[31] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[30] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[29] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[28] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[27] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[26] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[25] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[24] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[23] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[22] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[21] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[20] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[19] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[18] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[17] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[16] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[15] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[14] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[13] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[12] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[11] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[10] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[9] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[8] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[7] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[6] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[5] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[4] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[3] in module lui is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b[2] in module lui is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1519.754 ; gain = 575.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1519.754 ; gain = 575.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1519.754 ; gain = 575.293
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.125 . Memory (MB): peak = 1519.754 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'top_inst/rom_inst/rom_inst'
+Finished Parsing XDC File [c:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'top_inst/rom_inst/rom_inst'
+Parsing XDC File [c:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'top_inst/ram_inst/inst_ram'
+Finished Parsing XDC File [c:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'top_inst/ram_inst/inst_ram'
+Parsing XDC File [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/constrs_1/new/timing.xdc]
+Finished Parsing XDC File [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/constrs_1/new/timing.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/constrs_1/new/timing.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/clk_top_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/clk_top_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1620.516 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 1620.516 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'top_inst/ram_inst/inst_ram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'top_inst/rom_inst/rom_inst' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 1620.543 ; gain = 676.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 1620.543 ; gain = 676.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for top_inst/rom_inst/rom_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for top_inst/ram_inst/inst_ram. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 1620.543 ; gain = 676.082
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'control_unit'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                            00001 |                              000
+                 iSTATE0 |                            00010 |                              001
+                 iSTATE1 |                            00100 |                              010
+                 iSTATE3 |                            01000 |                              011
+                 iSTATE2 |                            10000 |                              100
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'control_unit'
+WARNING: [Synth 8-327] inferring latch for variable 'halt_signal_reg' [C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.srcs/sources_1/new/control_unit.v:86]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 1620.543 ; gain = 676.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 786   
++---Registers : 
+	               32 Bit    Registers := 43    
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 10    
+	   7 Input   32 Bit        Muxes := 1     
+	   6 Input   32 Bit        Muxes := 1     
+	   5 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 4     
+	   6 Input    4 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 33    
+	   5 Input    1 Bit        Muxes := 9     
+	   7 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_state_reg[4]) is unused and will be removed from module control_unit.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:52 . Memory (MB): peak = 1620.543 ; gain = 676.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:51 ; elapsed = 00:01:02 . Memory (MB): peak = 1620.543 ; gain = 676.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:02 ; elapsed = 00:01:14 . Memory (MB): peak = 1679.328 ; gain = 734.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:04 ; elapsed = 00:01:16 . Memory (MB): peak = 1679.328 ; gain = 734.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:11 ; elapsed = 00:01:24 . Memory (MB): peak = 1684.148 ; gain = 739.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:11 ; elapsed = 00:01:24 . Memory (MB): peak = 1684.148 ; gain = 739.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:12 ; elapsed = 00:01:24 . Memory (MB): peak = 1684.148 ; gain = 739.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:12 ; elapsed = 00:01:24 . Memory (MB): peak = 1684.148 ; gain = 739.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:12 ; elapsed = 00:01:25 . Memory (MB): peak = 1684.148 ; gain = 739.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:12 ; elapsed = 00:01:25 . Memory (MB): peak = 1684.148 ; gain = 739.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |blk_mem_gen_0 |         1|
+|2     |blk_mem_gen_1 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |blk_mem_gen |     2|
+|3     |BUFG        |     1|
+|4     |LUT1        |     2|
+|5     |LUT2        |    55|
+|6     |LUT3        |    98|
+|7     |LUT4        |   113|
+|8     |LUT5        |   275|
+|9     |LUT6        |   892|
+|10    |MUXF7       |   270|
+|11    |MUXF8       |    96|
+|12    |FDCE        |  1226|
+|13    |FDPE        |    33|
+|14    |LD          |     1|
+|15    |IBUF        |     3|
+|16    |OBUF        |    16|
++------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:12 ; elapsed = 00:01:25 . Memory (MB): peak = 1684.148 ; gain = 739.688
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 163 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:58 ; elapsed = 00:01:20 . Memory (MB): peak = 1684.148 ; gain = 638.898
+Synthesis Optimization Complete : Time (s): cpu = 00:01:12 ; elapsed = 00:01:25 . Memory (MB): peak = 1684.148 ; gain = 739.688
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1693.375 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 367 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1697.035 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  LD => LDCE: 1 instance 
+
+Synth Design complete | Checksum: 1555d210
+INFO: [Common 17-83] Releasing license: Synthesis
+137 Infos, 109 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:19 ; elapsed = 00:01:36 . Memory (MB): peak = 1697.035 ; gain = 1170.359
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1697.035 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.runs/synth_1/clk_top_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file clk_top_wrapper_utilization_synth.rpt -pb clk_top_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 13 13:27:17 2024...

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Nov 13 13:27:27 2024
+# Process ID: 22596
+# Current directory: C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.runs/impl_1
+# Command line: vivado.exe -log clk_top_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source clk_top_wrapper.tcl -notrace
+# Log file: C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.runs/impl_1/clk_top_wrapper.vdi
+# Journal file: C:/Users/adity/K_ALU_Final_Bram/K_ALU_Final_Bram.runs/impl_1\vivado.jou
+# Running On        :ADITYA
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+# CPU Frequency     :1190 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8350 MB
+# Swap memory       :10607 MB
+# Total Virtual     :18958 MB
+# Available Virtual :6701 MB
+#-----------------------------------------------------------
+source clk_top_wrapper.tcl -notrace
